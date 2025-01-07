@@ -1,7 +1,7 @@
 # TUGAS BESAR ANALISIS KOMPLEKSITAS ALGORITMA 2025
 *Analisis Kinerja Performa Metode Rekursif dan Metode Iteratif dalam Algoritma Sorting: Quick Sort*
 
-###Penjelasan Singkat Tentang *Quick Sort*
+### Penjelasan Singkat Tentang *Quick Sort*
 Algoritma *sorting* memiliki peran penting dalam pengolahan data, terutama ketika berhadapan dengan *dataset* yang besar. Salah satu algoritma* sorting* yang paling efisien dan sering digunakan adalah *Quick Sort*. *Quick Sort* merupakan metode pengurutan berbasis ***divide and conquer*** yang bekerja dengan memilih elemen *pivot*, kemudian membagi elemen-elemen lainnya ke dalam dua *sub-array* berdasarkan apakah elemen-elemen tersebut lebih kecil atau lebih besar dari *pivot*. Proses ini diulangi secara rekursif hingga seluruh array terurut.
 
 ### Requirement
@@ -71,12 +71,12 @@ def quickSortRecursive(arr, low, high):
         quickSortRecursive(arr, low, piv - 1)
         quickSortRecursive(arr, piv + 1, high)
 ```
-###Metode Pengujian
+### Metode Pengujian
 Pengujian akan dilakukan terhadap parameter *running time* . Skema pengujian dilakukan sebanyak 2 kasus yaitu *best* dan *worst case* untuk masing-masing algoritma iteratif dan rekursif. *Best case scenario* akan terdiri dari 10, 100, 1.000, 10.000, 100.000, 1 Juta, 10 Juta, dan 100 Juta data, sedangkan *worst case* hanya terdiri dari 10, 50, 100, 250, 500, dan 900 data bilangan acak.
-###Analisis
+### Analisis
 Berdasarkan hasil pengujian, algoritma *quick sort* secara rekursif menunjukkan waktu eksekusi yang lebih cepat dibandingkan metode iteratif pada berbagai ukuran dataset. Sebagai contoh, waktu eksekusi untuk dataset berukuran 10 juta data adalah 85.739 s untuk metode rekursif, sedangkan untuk metode iteratif adalah 85.917 s. Hal yang sama berlaku untuk dataset lainnya, dengan metode rekursif secara konsisten menunjukkan waktu eksekusi yang lebih cepat. Hasil pengujian berupa waktu eksekusi dalam detik (*second*) dapat dilihat pada tabel di bawah.
 
-Tabel hasil*running time best case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
+Tabel hasil *running time best case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
 
 |Data | Iteratif | Rekursif |
 | ------------- | ------------- | ------------- |
@@ -89,7 +89,7 @@ Tabel hasil*running time best case scenario* dari algoritma* quick sort* secara 
 | 10.000.000  | 85.916852 | 85.739131 | 
 | 100.000.000 | 2200.680902 | 2126.456566 |
 
-Tabel hasil* running time worst case scenario* dari algoritma* quick sort* secara iteratif dan rekursif 
+Tabel hasil *running time worst case scenario* dari algoritma* quick sort* secara iteratif dan rekursif 
 
 |Data | Iteratif | Rekursif |
 | ------------- | ------------- | ------------- |
@@ -102,16 +102,18 @@ Tabel hasil* running time worst case scenario* dari algoritma* quick sort* secar
 
 Kami juga menyediakan grafik perbandingan untuk tabel di atas, grafik dapat dilihat di bawah ini.
 
-![image](https://github.com/user-attachments/assets/9e53e55d-5a6d-4893-a05a-14faf9ac5267)
+![image](https://github.com/user-attachments/assets/f63a6600-4377-457e-9314-96de7147d0c2)
 
-Grafik*running time best case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
-![image](https://github.com/user-attachments/assets/15a76fe4-2069-405f-9618-1079edb3a6d5)
+Grafik *running time best case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
+
+![image](https://github.com/user-attachments/assets/ae1d7669-ce3e-4c83-9caa-10259158260d)
 
 Grafik *running time worst case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
-###Kompleksitas Waktu
+
+### Kompleksitas Waktu
 Algoritma quick sort secara rekursif dan iteratif memiliki kompleksitas waktu yang sama, yaitu $$O(n log n)$$ pada kasus terbaik dan rata-rata, serta $$O(n^2)$$ pada kasus terburuk. Namun, dari hasil analisis tabel yang diperoleh, kedua metode menunjukkan perbedaan waktu eksekusi pada berbagai skenario walaupun perbedaan tersebut tidak terlalu signifikan.
 
-###Author
+### Author
 |No. | Nama | NIM |
 | ------------- | ------------- | ------------- |
 | 1 | M. Raditya Faturrahman | 1304221050 |
