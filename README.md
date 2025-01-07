@@ -104,11 +104,11 @@ Kami juga menyediakan grafik perbandingan untuk tabel di atas, grafik dapat dili
 
 ![image](https://github.com/user-attachments/assets/f63a6600-4377-457e-9314-96de7147d0c2)
 
-Grafik *running time best case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
+Grafik *running time best case scenario* dari algoritma *quick sort* secara iteratif dan rekursif
 
 ![image](https://github.com/user-attachments/assets/ae1d7669-ce3e-4c83-9caa-10259158260d)
 
-Grafik *running time worst case scenario* dari algoritma* quick sort* secara iteratif dan rekursif
+Grafik *running time worst case scenario* dari algoritma *quick sort* secara iteratif dan rekursif
 
 ### Kompleksitas Waktu
 Algoritma quick sort secara rekursif dan iteratif memiliki kompleksitas waktu yang sama, yaitu $$O(n log n)$$ pada kasus terbaik dan rata-rata, serta $$O(n^2)$$ pada kasus terburuk. Namun, dari hasil analisis tabel yang diperoleh, kedua metode menunjukkan perbedaan waktu eksekusi pada berbagai skenario walaupun perbedaan tersebut tidak terlalu signifikan.
