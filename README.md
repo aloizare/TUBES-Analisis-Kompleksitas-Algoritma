@@ -9,14 +9,14 @@ Algoritma *sorting* memiliki peran penting dalam pengolahan data, terutama ketik
 
 ### Implementasi Algoritma
 Untuk mendapatkan *dataset* kami membuat kode khusus yang akan memberikan kami *dataset* bilangan acak, kode tersebut dapat dilihat di bawah ini.
-
+```python
     def generate_random_number(ran_num):
     arr = []
     a = 900		#a adalah batas dari bilangan acak yang akan dibuat oleh source code
     for i in range(ran_num):
         arr.append(random.randint(1, a))
     return arr
-
+```
 Di bawah ini merupakan algoritma yang kami gunakan dalam tugas besar kali ini. Terdapat *source code quick sort* secara iteratif dan rekursif, kemudian terdapat juga *best case* dan *worst case scenario* untuk masing-masing algoritma. Tetapi sebelum masuk ke algoritma utama, terdapat algoritma awal yaitu fungsi `partition` yang fungsinya untuk membagi array menjadi dua bagian berdasarkan nilai pivot yang dipilih.
 
 Fungsi *Partition*
