@@ -4,7 +4,7 @@ import time
 # Fungsi generate array random
 def generate_random_number(ran_num):
     arr = []
-    a = 900       # Ubah batas atas dari bilangan acak
+    a = 900       # a adalah batas dari bilangan acak yang akan dibuat oleh source code
     for i in range(ran_num):
         arr.append(random.randint(1, a))
     return arr
