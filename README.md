@@ -4,10 +4,10 @@
 ###Penjelasan Singkat Tentang *Quick Sort*
 Algoritma *sorting* memiliki peran penting dalam pengolahan data, terutama ketika berhadapan dengan *dataset* yang besar. Salah satu algoritma* sorting* yang paling efisien dan sering digunakan adalah *Quick Sort*. *Quick Sort* merupakan metode pengurutan berbasis ***divide and conquer*** yang bekerja dengan memilih elemen *pivot*, kemudian membagi elemen-elemen lainnya ke dalam dua *sub-array* berdasarkan apakah elemen-elemen tersebut lebih kecil atau lebih besar dari *pivot*. Proses ini diulangi secara rekursif hingga seluruh array terurut.
 
-###Requirement
+### Requirement
 `Python3`
 
-###Implementasi Algoritma
+### Implementasi Algoritma
 Untuk mendapatkan *dataset* kami membuat kode khusus yang akan memberikan kami *dataset* bilangan acak, kode tersebut dapat dilihat di bawah ini.
 
     def generate_random_number(ran_num):
